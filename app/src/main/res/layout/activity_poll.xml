@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:fab="http://schemas.android.com/tools"
+    tools:context="com.example.kalyan.timetable.Poll">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="435dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your group"
+        android:id="@+id/groupname"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your Username"
+        android:id="@+id/username"
+
+
+       />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:textColor="#000000"
+            android:backgroundTint="#aaffbb"
+
+            />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter the title of the poll"
+    android:id="@+id/polltitle"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="START POLL"
+
+        android:backgroundTint="#0000ff"
+        android:textColor="#ffffff"
+
+        android:id="@+id/startpoll"
+        />
+    <Button
+        android:id="@+id/endpoll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:backgroundTint="#aaffbb"
+        android:text="END POLL"
+        android:textColor="#000000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/result"
+        android:backgroundTint="#0000ff"
+        android:textColor="#ffffff"
+        android:text="Present Result of Polling"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="viewEnd"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="Poll here "
+        />
+</LinearLayout>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabpoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"
+        app:fab_colorRipple="#9FA8DA"
+        app:fab_colorNormal="#FFB300"
+        android:src="@drawable/fab_add"
+        fab:fab_colorNormal="@color/app_primary"
+        fab:fab_colorPressed="@color/app_primary_pressed"
+        fab:fab_colorRipple="@color/app_ripple"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "995518332803",
+    "firebase_url": "https://timetable-42139.firebaseio.com",
+    "project_id": "timetable-42139",
+    "storage_bucket": "timetable-42139.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995518332803:android:3e64844672eb4c97",
+        "android_client_info": {
+          "package_name": "com.example.kalyan.timetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995518332803-9shuo1qteds4irsu8ka12g28hfq990l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYzvDyi0y-sOtWNv7nbkwUCfxL92LLfPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
