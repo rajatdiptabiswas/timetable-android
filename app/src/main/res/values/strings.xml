@@ -9,11 +9,11 @@
         <item>"friday"</item>
     </array>
     <array name="Time">
-        <item>8AM - 9AM</item>
-        <item>9AM - 10AM</item>
-        <item>10AM - 11AM</item>
-        <item>11AM - 12PM</item>
-        <item>12PM - 1PM</item>
+        <item>8:45AM - 9:25AM</item>
+        <item>9:30AM - 10:10AM</item>
+        <item>10:15AM - 10:55AM</item>
+        <item>11:00AM - 11:40AM</item>
+        <item>11:45AM - 12:25PM</item>
         <item>2PM - 3PM</item>
         <item>3PM - 4PM</item>
         <item>4PM - 5PM</item>

@@ -1,8 +1,6 @@
 package com.example.kalyan.timetable;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.LinearLayout;
 
 import com.daimajia.androidanimations.library.Techniques;
@@ -10,11 +8,14 @@ import com.viksaa.sssplash.lib.activity.AwesomeSplash;
 import com.viksaa.sssplash.lib.cnst.Flags;
 import com.viksaa.sssplash.lib.model.ConfigSplash;
 
-public class SplashActivity extends AwesomeSplash {
+public class SplashActivity extends AwesomeSplash
+{
 
-    LinearLayout view ;
+    LinearLayout view;
+
     @Override
-    public void initSplash(ConfigSplash configSplash) {
+    public void initSplash(ConfigSplash configSplash)
+    {
         setContentView(R.layout.activity_splash);
         /* you don't have to override every property */
         //Customize Circular Reveal
@@ -39,9 +40,10 @@ public class SplashActivity extends AwesomeSplash {
     }
 
     @Override
-    public void animationsFinished() {
+    public void animationsFinished()
+    {
         finish();
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 

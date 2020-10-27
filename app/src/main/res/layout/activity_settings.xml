@@ -11,70 +11,73 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:textColor="#1A237E"
-        android:text="Show Notification" />
+        android:text="Show Notification"
+        android:textColor="#1A237E" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:paddingLeft="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="16dp"
             android:text="Reset Database"
-            android:paddingTop="16dp"
 
-            android:textColor="#1A237E"
-            />
+            android:textColor="#1A237E" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
             android:text="Clear all data related to your timetable"
-            android:paddingBottom="16dp"
 
             />
     </LinearLayout>
+
     <LinearLayout
+        android:id="@+id/set_proj_notification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:id="@+id/set_proj_notification">
+        android:paddingLeft="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="16dp"
             android:text="Set project notification time"
-            android:paddingTop="16dp"
 
-            android:textColor="#1A237E"
-            />
+            android:textColor="#1A237E" />
+
         <TextView
+            android:id="@+id/proj_notification_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/proj_notification_time"
-            android:paddingBottom="16dp"
-            />
+            android:paddingBottom="16dp" />
     </LinearLayout>
+
     <LinearLayout
+        android:id="@+id/set_notification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:id="@+id/set_notification">
+        android:paddingLeft="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Set daily notification time"
             android:paddingTop="16dp"
-            android:textColor="#1A237E"
-            />
+            android:text="Set daily notification time"
+            android:textColor="#1A237E" />
+
         <TextView
+            android:id="@+id/notification_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/notification_time"
-            android:paddingBottom="16dp"
-            />
+            android:paddingBottom="16dp" />
     </LinearLayout>
 </LinearLayout>

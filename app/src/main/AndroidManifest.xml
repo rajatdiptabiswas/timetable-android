@@ -86,19 +86,19 @@
         </activity>
         <activity android:name=".Thursday" />
         <activity android:name=".Friday" />
-        <activity android:name=".AttendenceActivity"
-            android:label="Attendence Manager"
-            >
+        <activity
+            android:name=".AttendenceActivity"
+            android:label="Attendence Manager">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kalyan.timetable.MainActivity" />
         </activity>
-        <activity android:name=".Poll"
-            android:label="Poll"
-            >
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.kalyan.timetable.MainActivity" />
+        <activity
+            android:name=".Poll"
+            android:label="Poll">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kalyan.timetable.MainActivity" />
         </activity>
     </application>
 
