@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.majeur.cling:cling:1.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/cling-1.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/cling-1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/cling-1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/jetified-cling-1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/jetified-cling-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cae8de741e0e24ac3c4a12dcfa50ea7/jetified-cling-1.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.majeur.cling/cling/1.1/fbad0b95842e1860acdffe2b2a790da6ee894c1d/cling-1.1-javadoc.jar!/" />

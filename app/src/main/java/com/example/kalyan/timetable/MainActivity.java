@@ -12,7 +12,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +20,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -39,13 +39,13 @@ import java.util.Date;
 
 public class MainActivity extends FragmentActivity
 {
-
     private static final String FOR_FIRST_TIME = "for first time";
     static MainActivity mainActivity;
     static AlarmManager alarmManager;
     static PendingIntent pendingIntent;
     private static Context context;
     public int currentPage = 0;
+    ViewPager viewPager;
     FloatingActionButton fab = null;
     ListView leftlist;
     private DrawerLayout mDrawerLayout;
@@ -98,12 +98,28 @@ public class MainActivity extends FragmentActivity
         // Calendar c = Calendar.getInstance();
 
 
-        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(adapter);
+        Calendar calendar = Calendar.getInstance();
+        final int pos = calendar.get(Calendar.DAY_OF_WEEK);
+        viewPager.postDelayed(new Runnable()
+        {
 
+            @Override
+            public void run()
+            {
+                if ((pos == 1) || (pos == 7))
+                {
+                    viewPager.setCurrentItem(0);
+                }
+                else
+                {
+                    viewPager.setCurrentItem(pos-1);
+                }
+            }
+        }, 10);
         SmartTabLayout viewPagerTab = (SmartTabLayout) findViewById(R.id.viewpagertab);
         viewPagerTab.setViewPager(viewPager);
-
         if (getIntent() != null)
         {
             viewPager.setCurrentItem(getIntent().getIntExtra("page", 0));

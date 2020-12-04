@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.amlcurran.showcaseview:library:5.4.3@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/555cb4cfc523304a45a9884e8d9a4e4c/jetified-library-5.4.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15dbfd730b9229a790c8c95b9259974d/jetified-library-5.4.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/555cb4cfc523304a45a9884e8d9a4e4c/jetified-library-5.4.3/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/555cb4cfc523304a45a9884e8d9a4e4c/jetified-library-5.4.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/555cb4cfc523304a45a9884e8d9a4e4c/jetified-library-5.4.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15dbfd730b9229a790c8c95b9259974d/jetified-library-5.4.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15dbfd730b9229a790c8c95b9259974d/jetified-library-5.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15dbfd730b9229a790c8c95b9259974d/jetified-library-5.4.3/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.amlcurran.showcaseview/library/5.4.3/bc4a8920f8894b54a1827c4a5e0800fe5000be/library-5.4.3-javadoc.jar!/" />
