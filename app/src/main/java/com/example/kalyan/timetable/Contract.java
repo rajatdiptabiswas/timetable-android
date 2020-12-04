@@ -7,13 +7,16 @@ import android.provider.BaseColumns;
  * Created by KALYAN on 26-08-2017.
  */
 
-public class Contract {
+public class Contract
+{
 
-    private Contract() {
+    private Contract()
+    {
     }
 
     /* Inner class that defines the table contents */
-    public static class Entry implements BaseColumns {/*here we are writing the single table becoz
+    public static class Entry implements BaseColumns
+    {/*here we are writing the single table becoz
     there is only one table i.e pets table  so.... */
 
         public static final String AUTHORITY = "com.example.kalyan.timetable";

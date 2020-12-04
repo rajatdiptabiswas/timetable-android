@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#50E8EAF6"
-    android:layout_height="match_parent">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3551B5"
         android:orientation="horizontal">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_action_name"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:src="@drawable/ic_action_name" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"
-            android:textSize="25dp"
             android:layout_gravity="center"
+            android:paddingLeft="10dp"
             android:text="TimeTable"
-            android:textColor="#FFF"/>
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:padding="20dp">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/widgetTv"
-        android:layout_gravity="center"
-        android:textColor="#00007E"
-        tools:text="Hi i am from TimeTable......."
-        android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/widgetTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#00007E"
+            android:textSize="20dp"
+            tools:text="Hi i am from TimeTable......." />
     </LinearLayout>
 
 </LinearLayout>

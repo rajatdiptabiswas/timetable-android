@@ -8,17 +8,20 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by KALYAN on 26-08-2017.
  */
 
-public class Helper extends SQLiteOpenHelper {
+public class Helper extends SQLiteOpenHelper
+{
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "timetable.db";
 
-    public Helper(Context context) {
+    public Helper(Context context)
+    {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
 
     @Override
-    public void onCreate(SQLiteDatabase db) {
+    public void onCreate(SQLiteDatabase db)
+    {
         final String SQL_CREAT_TABLE = "CREATE TABLE " + Contract.Entry.TABLE_NAME + "("
                 + Contract.Entry.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT ," +
                 Contract.Entry.COLUMN_DAY + " TEXT ," +
@@ -29,7 +32,7 @@ public class Helper extends SQLiteOpenHelper {
                 Contract.Entry.COLUMN_12to1 + " TEXT ," +
                 Contract.Entry.COLUMN_2to3 + " TEXT ," +
                 Contract.Entry.COLUMN_3to4 + " TEXT ," +
-                Contract.Entry.COLUMN_4to5 + " TEXT ,"+
+                Contract.Entry.COLUMN_4to5 + " TEXT ," +
                 Contract.Entry.COLUMN_5to6 + " TEXT" + ");";
 
         db.execSQL(SQL_CREAT_TABLE);
@@ -37,7 +40,8 @@ public class Helper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
+    {
 
     }
 }

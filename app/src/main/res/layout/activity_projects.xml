@@ -5,55 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C5CAE9"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical"
     tools:context="com.example.kalyan.timetable.ProjectsActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <com.github.florent37.materialtextfield.MaterialTextField
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        app:mtf_labelColor="#1A237E">
-
-        <EditText
+        <com.github.florent37.materialtextfield.MaterialTextField
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Subject"
-            android:textColor="#333"
-            android:id="@+id/subject_proj"
-            android:textSize="15sp" />
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:mtf_labelColor="#1A237E">
 
-    </com.github.florent37.materialtextfield.MaterialTextField>
-    <com.github.florent37.materialtextfield.MaterialTextField
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        app:mtf_labelColor="#1A237E">
+            <EditText
+                android:id="@+id/subject_proj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:textColor="#333"
+                android:textSize="15sp" />
 
-        <EditText
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Projects"
-            android:textColor="#333"
-            android:id="@+id/assg"
-            android:textSize="15sp" />
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:mtf_labelColor="#1A237E">
 
-    </com.github.florent37.materialtextfield.MaterialTextField>
+            <EditText
+                android:id="@+id/assg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Projects"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
     </LinearLayout>
+
     <Button
+        android:id="@+id/set_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="16dp"
         android:backgroundTint="#3949ab"
-        android:id="@+id/set_date"
         android:text="Set Date"
-        android:textColor="#FFFF"
-        android:layout_margin="16dp"/>
+        android:textColor="#FFFF" />
 </LinearLayout>
